@@ -1,0 +1,10 @@
+{
+    "name": "webrtc_video_call_app_0",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "concurrently --kill-others \"npm run dev-fe\" \"npm run dev-be\"",
+        "dev-be": "cd server && npm run dev",
+        "dev-fe": "cd client && npm run dev"
+    }
+}

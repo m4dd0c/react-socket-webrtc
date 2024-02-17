@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+input {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border-radius: 0.7rem;
+  color: black;
+  font-weight: 700;
+}
+::-webkit-scrollbar {
+  display: none;
+}
