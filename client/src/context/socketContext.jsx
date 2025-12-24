@@ -8,10 +8,11 @@ export const useSocket = () => {
 };
 
 const SocketContext = ({ children }) => {
-  const _io = useMemo(() => io("localhost:4000/"), []);
+  const _io = useMemo(() => io("https://react-socket-webrtc.onrender.com/"), []);
   return (
     <socketContext.Provider value={_io}>{children}</socketContext.Provider>
   );
 };
 
 export default SocketContext;
+
