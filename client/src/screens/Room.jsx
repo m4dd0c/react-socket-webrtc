@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import { useSocket } from "../context/socketContext";
 import PeerService from "../services/PeerService";
 import MsgCard from "../components/MsgCard";
-import boss from "./boss.mp4";
+
 const Room = () => {
   const [msgText, setMsgText] = useState("");
   const [msgList, setMsgList] = useState([]);
@@ -184,3 +184,4 @@ const Room = () => {
 };
 
 export default Room;
+
